@@ -1,0 +1,32 @@
+nav {
+    background-color: white;
+    text-align: center;
+    position: sticky;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 2px solid slategray;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 15px;
+}
+
+li a:link {
+    text-decoration: none;
+    color: hotpink;
+}
+
+a:visited {
+    color: blue;
+}
+
+nav li:hover {
+    color: aqua;
+}
+
